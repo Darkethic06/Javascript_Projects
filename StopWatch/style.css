@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.container {
+
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+.txt {
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+}
+
+.digit {
+    font-size: 70px;
+    padding: 0px 8px;
+
+}
+
+.btn {
+    padding: 12px 45px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    font-size: 22px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+
+    transition-duration:0.5s ;
+    transition-property: transform;
+    margin: 0.5rem 1.2rem;
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
