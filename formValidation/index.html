@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="title">Sign Up Today!</h1>
+            <div class="input-group">
+                <label for="name" class="label">Full Name</label>
+                <input type="text" id="name" class="input" onkeyup="validateName()">
+                <span class="error" id="name_error"></span>
+            </div>
+            <div class="input-group">
+                <label for="name" class="label">Phone Number</label>
+                <input type="tel" id="phone" class="input" onkeyup="validatePhone()">
+                <span class="error" id="phone_error"></span>
+
+            </div>
+            <div class="input-group">
+                <label for="name" class="label">Email Address</label>
+                <input type="text" id="email" class="input">
+                <span class="error" id="email_error"></span>
+
+            </div>
+            <div class="input-group">
+                <label for="name" class="label">Website URL</label>
+                <input type="text" id="web" class="input" onkeyup="validateWeb()">
+                <span class="error" id="web_error"></span>
+
+            </div>
+            <div class="input-group">
+                <label for="name" class="label">Password</label>
+                <input type="text" id="pass" class="input" onkeyup="validatePass()">
+                <span class="error" id="pass_error"></span>
+
+            </div>
+            <div class="input-group">
+                <label for="name" class="label">Confirm Password</label>
+                <input type="text" id="cnfPass" class="input" onkeyup="validateConfPass()">
+                <span class="error" id="cnfPass_error"></span>
+
+            </div>
+            <button type="submit" class="btn submitBtn" id="submit">Register</button>
+            <button type="submit" class="btn loginBtn" id="login">Already Registered? Login</button>
+
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

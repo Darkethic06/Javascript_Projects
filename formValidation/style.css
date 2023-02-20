@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+.container{
+    height: auto;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 16px;
+    padding: 1rem;
+    border: 2px solid rgb(131, 131, 131);
+}
+
+.title{
+    text-align: center;
+}
+
+.input-group{
+    margin-top: 1rem;
+    height: 90px;
+}
+.label{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.input{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 8px;
+    padding: 8px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition-property: transform;
+    border-radius: 5px;
+}
+.submitBtn{
+    color: whitesmoke;
+    background-color: black;
+}
+.loginBtn{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn:focus{
+    transform: scale(0.97);
+}
+.error{
+    font-size: 12px;
+    color: red;
+}
