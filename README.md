@@ -1,1 +1,1 @@
-# Javascript_Projects
+# 100 Javascript Projects
